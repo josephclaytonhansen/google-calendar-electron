@@ -26,7 +26,7 @@ function createWindow () {
     icon: path.join(__dirname, 'google_calendar.icns')
   })
 
-  mainWindow.loadURL('https://calendar.google.com')
+  mainWindow.loadURL(`/url/path`, { userAgent: 'Chrome' });
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
